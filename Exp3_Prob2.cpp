@@ -23,7 +23,7 @@ int main()
 		cin >> ProvB[x];
 	}
 
-	cout << "\n\n===Enter all temperatures in Province A for this week===" << endl;
+	cout << "\n\n===Enter all temperatures in Province C for this week===" << endl;
 	for (x=0; x<7; x++)
 	{
 		cout << "Temperature at Province C, Day " << x+1 << ": ";
@@ -41,13 +41,13 @@ int main()
 	cout << "Temperature at Province A, Day " << x+1 << ": " << ProvA[x] << endl;
 	}
 	
-	cout << "\nTemperatures in Province A for this week:" << "\n";
+	cout << "\nTemperatures in Province B for this week:" << "\n";
 	for (x=0; x<7; x++)
 	{
 	cout << "Temperature at Province B, Day " << x+1 << ": " << ProvB[x] << endl;
 	}
 	
-	cout << "\nTemperatures in Province A for this week:" << "\n";
+	cout << "\nTemperatures in Province C for this week:" << "\n";
 	for (x=0; x<7; x++)
 	{
 	cout << "Temperature for Province C, Day " << x+1 << ":" << ProvC[x] << endl;
